@@ -1,7 +1,6 @@
 #!/bin/bash
-while :
-do 
-echo "i have warm water to drink"
-sleep 1
-exit
+end=$((SECONDS+3))
+while [ $SECONDS - lt $end ]; do
+echo"I have water"
+:
 done
