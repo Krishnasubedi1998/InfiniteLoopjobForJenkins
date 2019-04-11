@@ -3,4 +3,5 @@ while :
 do 
 echo "i have warm water to drink"
 sleep 1
+exit
 done
